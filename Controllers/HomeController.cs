@@ -24,6 +24,8 @@ namespace MerhabaMVC.Controllers
         }
 
         public IActionResult Hakkimda(){
+            //Veritabanı bağlantısı yapıldı
+            string connectionString="Bilmem ne";
             return View();
         }
 
